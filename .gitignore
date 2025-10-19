@@ -1,0 +1,5 @@
+.vscode
+test-site/.vscode
+test-site/node_modules
+test-site2/.vscode
+test-site2/node_modules
