@@ -6,3 +6,4 @@ test-site2/node_modules
 my-astro-blog/.vscode
 my-astro-blog/node_modules
 .aider*
+.DS_Store
