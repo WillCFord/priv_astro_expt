@@ -1,0 +1,18 @@
+---
+const { navLinks } = Astro.props;
+---
+
+<header class="sticky-header flex items-center justify-between px-6 py-4">
+    <h1 class="text-xl font-bold text-indigo-600 dark:text-indigo-400">
+        My Astro Blog
+    </h1>
+    <nav class="space-x-4">
+        {
+            navLinks.map((link) => (
+                <a href={link.href} class="hover:underline">
+                    {link.text}
+                </a>
+            ))
+        }
+    </nav>
+</header>

@@ -3,3 +3,6 @@ test-site/.vscode
 test-site/node_modules
 test-site2/.vscode
 test-site2/node_modules
+my-astro-blog/.vscode
+my-astro-blog/node_modules
+.aider*

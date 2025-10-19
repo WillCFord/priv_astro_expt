@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utility for the sticky header */
+.sticky-header {
+    @apply fixed top-0 w-full z-50 shadow-md bg-white dark:bg-gray-900;
+}

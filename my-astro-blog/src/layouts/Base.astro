@@ -1,0 +1,17 @@
+---
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{title ? `${title} | My Astro Blog` : "My Astro Blog"}</title>
+        <link rel="stylesheet" href="/src/styles/tailwind.css" />
+    </head>
+    <body class="bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+        <slot />
+    </body>
+</html>
